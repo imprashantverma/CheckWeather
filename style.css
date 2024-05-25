@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 .current-tab{
-    background-color: antiquewhite;
-
+    background-color: rgb(179, 119, 152);
+    border-radius: 2%;
 }
 .wrapper{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 4%;
+    gap: 2%;
     width: 100vw;
     height: 100vh;
 }
@@ -22,7 +22,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2%;
 }
 .cards{
     display: flex;
@@ -73,9 +72,10 @@
     gap: 5%;
     margin-top: 1%;
 }
-
+.heading{
+    margin-top: 5%;
+}
 .form-container{
-    margin-top: 1%;
     height: 8vh;
     width: 25vw;
     display: flex;
@@ -91,7 +91,7 @@
     font-size: 1em;
 }
 .search-city{
-    width: 20vw;
+    width:19vw;
     border-radius: 10px;
     padding-left: 2%;
 }
@@ -112,9 +112,10 @@ button{
         font-size: 0.6em;
     }
     .search-city{
-        width: 100%;
+        width:24vw;
         font-size: 0.6em;
         text-align: center;
+        
     }
     
 }
