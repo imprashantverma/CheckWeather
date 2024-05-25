@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h3 class="heading">WEATHER APP</h3>
+        <!-- tab container -->
+        <div class="tab-container">
+            <p class="your-weather">Your Weather</p>
+            <p class="search-weather">  Search Weather</p>
+        </div>
+                <!-- form search citys -->
+                <div class="form-container">  
+                    <input type="text" placeholder="Search for City.." class="search-city">
+                    <button>
+                        <img src="./search.png" width="25" height="22" class="search-btn">
+                        </button>
+                </div>
+                 <!-- Location Acess granter -->
+            <div class="location-container">
+                <!-- <h3>Grant Location Acess</h3> -->
+                <img src="./loading.gif" width="50" height="50" loading="lazy">
+                <!-- <p>Allow Acess  To Get Weather Information</p> -->
+                <!-- <button class="acess-btn">GRANT ACCESS</button> -->
+            </div>
+                <!-- information Container -->
+                <div class="info-container">
+                    <!-- city and country flag -->
+                    <div class="city-flag">
+                        <p class="city"></p>
+                        <img class="flag"  width="25" height="20">
+                    </div>
+                    <p class="description"></p>
+                    <img  class="weather-image" height="40" width="50">
+                    <p class="temp"> </p>
+
+                    <!-- cards -->
+                    <div class="cards">
+                        <!-- card 1 -->
+                        <div class="card-1">
+                            <img src="./wind.png" width="50" height="50">
+                            <p class="text">WIND SPEED</p>
+                            <p class="speed"></p>
+                        </div>
+                        <!-- card 2 -->
+                        <div class="card-2">
+                            <img src="./hum.png" width="50" height="50">
+                            <p  class="text" >HUMIDITY</p>
+                            <p class="humidity"></p>
+                        </div>
+                        <!-- card 3 -->
+                        <div class="card-3">
+                            <img src="./colud.jpg" width="50" height="50">
+                            <p  class="text" >CLOUD</p>
+                            <p class="cloud"></p>
+                        </div>
+                    </div>
+                </div>
+    </div>
+        <script src="script.js"></script>
+</body> 
+</html>

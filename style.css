@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.current-tab{
+    background-color: antiquewhite;
+
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4%;
+    width: 100vw;
+    height: 100vh;
+}
+.info-container{
+    width: 50%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.card-1,.card-2,.card-3{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.city-flag{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+.city{
+    font-size: 1em;
+    text-align: right;
+}
+.description,.temp{
+    height: 12%;
+    width: 100%;
+    text-align: center;
+}
+.text{
+    font-size: x-small;
+    height: 20%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cloud,.humidity,.speed{
+    height: 30%;
+    font-size: small;
+}
+.tab-container{
+    width: 40%;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-around;
+    gap: 5%;
+    margin-top: 1%;
+}
+
+.form-container{
+    margin-top: 1%;
+    height: 8vh;
+    width: 25vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap:wrap ;
+}
+.your-weather,.search-weather{
+    height: 100%;
+    width: 50%;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1em;
+}
+.search-city{
+    width: 20vw;
+    border-radius: 10px;
+    padding-left: 2%;
+}
+button{
+    border: 0;
+    cursor: pointer;
+    display: flex;
+}
+.hidden{
+    display:none;
+  }
+@media (max-width :350px) {
+    .heading{
+        margin-top: 2%;
+        font-size: 0.9em
+    }
+    .your-weather,.search-weather{
+        font-size: 0.6em;
+    }
+    .search-city{
+        width: 100%;
+        font-size: 0.6em;
+        text-align: center;
+    }
+    
+}
