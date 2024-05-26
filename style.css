@@ -92,7 +92,9 @@
 .search-city{
     width:19vw;
     border-radius: 10px;
+    text-align:left;
     padding-left: 2%;
+    
 }
 button{
     border: 0;
