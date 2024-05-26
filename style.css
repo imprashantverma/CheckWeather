@@ -112,10 +112,18 @@ button{
         font-size: 0.6em;
     }
     .search-city{
-        width:34vw;
+        width:30vw;
         font-size: 0.6em;
         text-align: center;
         
     }
-    
+    .form-container{
+        width: 50vw;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .search-btn{
+        width: 5vw;
+        text-align:left;
+    }
 }
